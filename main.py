@@ -4,6 +4,7 @@ import pygame
 from sys import exit
 import math
 
+import calculations
 
 class Particle:
     """Class of particle"""
