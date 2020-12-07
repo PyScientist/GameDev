@@ -4,6 +4,8 @@ import pygame
 from sys import exit
 import math
 
+from colours import color_rgb
+
 
 class Particle:
     """Class of particle"""
