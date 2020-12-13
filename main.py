@@ -4,7 +4,12 @@ import pygame
 from sys import exit
 import math
 
+
 from colours import color_rgb
+from password import get_pass_word
+
+print(get_pass_word())
+print(color_rgb('red'))
 
 
 class Particle:
