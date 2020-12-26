@@ -6,9 +6,15 @@ import math
 
 
 from colours import color_rgb
-from password import get_pass_word
 
-print(get_pass_word())
+try:
+    from password import get_pass_word
+    MySql_key = get_pass_word()
+except:
+    MySql_key = '123'
+
+
+print(MySql_key)
 print(color_rgb('red'))
 
 
