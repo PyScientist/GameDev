@@ -4,6 +4,8 @@ import pygame
 from sys import exit
 import math
 
+from colors import color_rgb
+
 class Particle:
     """Class of particle"""
 
@@ -117,7 +119,7 @@ def main(fps=60):
 
     # Launch the main loop of program
     while True:
-        screen.fill((255, 255, 255))
+        screen.fill(color_rgb('black'))
         for particle in particles.particles_set:
             particle.move(disp_width, disp_height)
             particle.display()
