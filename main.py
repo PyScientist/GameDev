@@ -7,6 +7,7 @@ import math
 from colors import color_rgb
 
 try:
+    # If password exists use main key and case
     from password import get_pass_word
     MySql_key = get_pass_word()
 except:
