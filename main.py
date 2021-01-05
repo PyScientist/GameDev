@@ -13,6 +13,7 @@ try:
 except:
     MySql_key = '123'
 
+
 class Particle:
     """Class of particle"""
 
